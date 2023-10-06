@@ -1,4 +1,4 @@
-This is the github repo for the code of the paper **Privacy Perils in Federated Learning: Theoretically Unmasking Threats from Dishonest Servers** [under review]
+This is the github repo for the code of the paper **Analysis of Privacy Leakage in Federated Large Language Models** [under review]
 
 ## Dependencies
 This codebase has been developed and tested only with python 3.8.10 and pytorch 1.7.0, on a linux 64-bit operation system.
@@ -20,6 +20,9 @@ $ conda activate <name_env>
 
 ## Dataset and Preprocessing
 
+For LLMs experiments:
+
+
 For AMI experiments on CIFAR10 and ImageNet datasets:
 
 1. Follow the `README.md` file in `data/` to download the dataset
@@ -33,11 +36,12 @@ Our notebooks in the  `API/` folder demonstrate how to load the datasets.
 
 ## Usage
 
-Our code are distributed into three sub-directories:
+Our codes are distributed into three sub-directories:
 
-- `Theory`: Experiments on synthetic One-hot, Spherical and Gaussian datasets
+- `Theory`: Experiments on synthetic One-hot, Spherical, and Gaussian datasets
 - `AMI`: Experiments of AMI on CIFAR10 and ImageNet datasets
 - `API`: Experiments of API on IMDB and Twitter datasets
+- 'LLMs': Experiments on LLMs
 
 ## Usage of code in `AMI/`
 Simply run the two notebooks to reproduce the results in  (**Fig 7**)
